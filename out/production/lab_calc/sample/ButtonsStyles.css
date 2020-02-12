@@ -1,0 +1,167 @@
+.buttonEquals{
+    -fx-background-color:
+            rgba(255, 175, 45, 0.88),
+            linear-gradient(#ff4428, #ff856c),
+            linear-gradient(#ff9016 20%, #fb6515 80%);
+    -fx-border-color: rgb(243, 136, 22);
+    -fx-border-radius: 15;
+    -fx-border-width: 2;
+    -fx-background-insets: 0 0 -1 0,0,1;
+    -fx-background-radius: 15;
+    -fx-text-fill: #3db622;
+    -fx-padding: -1;
+    -fx-font-size: 20px;
+    -fx-font-style: normal;
+    -fx-animated: true;
+}
+
+.buttonEquals:hover{
+    -fx-background-color:
+            rgba(255, 175, 45, 0.88),
+            linear-gradient(#ff4428, #ff856c),
+            linear-gradient(#f00300 20%, #e22810 80%);
+    -fx-border-color: rgb(166, 3, 0);
+    -fx-border-radius: 15;
+    -fx-border-width: 2;
+    -fx-padding: 0;
+    -fx-background-insets: 0 0 -1 0,0,1;
+    -fx-background-radius: 15;
+    -fx-text-fill: #2bff36;
+    -fx-font-size: 24px;
+    -fx-font-style: normal;
+}
+.buttonValue{
+    -fx-background-color:
+            rgba(141, 172, 255, 0.88),
+            linear-gradient(#636fff, #9fb6ff),
+            linear-gradient(#93a5fb 20%, #93a5fb 80%);
+    -fx-border-color: rgb(96, 99, 243);
+    -fx-border-radius: 15;
+    -fx-border-width: 2;
+    -fx-background-insets: 0 0 -1 0,0,1;
+    -fx-background-radius: 15;
+    -fx-padding: 0;
+    -fx-text-fill: #f7fdff;
+    -fx-font-family: serif;
+    -fx-font-size: 15px;
+    -fx-font-style: normal;
+    -fx-animated: true;
+}
+
+.buttonValue:hover{
+    -fx-background-color:
+            rgba(83, 92, 255, 0.88),
+            linear-gradient(#275cf1, #454aff),
+            linear-gradient(#505ef0 20%, #2d61e2 80%);
+    -fx-border-color: rgb(55, 70, 158);
+    -fx-border-radius: 15;
+    -fx-border-width: 2;
+    -fx-background-insets: 0 0 -1 0,0,1;
+    -fx-background-radius: 15;
+    -fx-text-fill: #f7fdff;
+    -fx-font-size: 20px;
+    -fx-font-family: serif;
+    -fx-font-style: normal;
+    -fx-animated: false;
+}
+
+
+.buttonOperation{
+    -fx-background-color:
+            rgba(255, 254, 127, 0.88),
+            linear-gradient(#fbff83, #fff75e),
+            linear-gradient(#fbee79 20%, #fbf55f 80%);
+    -fx-border-color: rgb(255, 197, 67);
+    -fx-border-radius: 15;
+    -fx-border-width: 2;
+    -fx-background-insets: 0 0 -1 0,0,1;
+    -fx-background-radius: 15;
+    -fx-padding: 0;
+    -fx-text-fill: #000000;
+    -fx-font-size: 20px;
+    -fx-font-style: normal;
+    -fx-animated: true;
+}
+
+.buttonOperation:hover{
+    -fx-background-color:
+            rgba(255, 253, 51, 0.88),
+            linear-gradient(#faff10, #fff219),
+            linear-gradient(#fffe04 20%, #fdff01 80%);
+    -fx-border-color: rgb(255, 174, 5);
+    -fx-border-radius: 15;
+    -fx-border-width: 2;
+    -fx-background-insets: 0 0 -1 0,0,1;
+    -fx-background-radius: 15;
+    -fx-text-fill: #000000;
+    -fx-font-size: 24px;
+    -fx-font-style: normal;
+    -fx-animated: false;
+}
+
+.buttonBigOperation{
+    -fx-background-color:
+            rgba(255, 254, 127, 0.88),
+            linear-gradient(#fbff83, #fff75e),
+            linear-gradient(#fbee79 20%, #fbf55f 80%);
+    -fx-border-color: rgb(255, 197, 67);
+    -fx-border-radius: 15;
+    -fx-border-width: 2;
+    -fx-background-insets: 0 0 -1 0,0,1;
+    -fx-background-radius: 15;
+    -fx-padding: 0;
+    -fx-text-fill: #000000;
+    -fx-font-size: 12px;
+    -fx-font-style: normal;
+    -fx-animated: true;
+}
+
+.buttonBigOperation:hover{
+    -fx-background-color:
+            rgba(255, 253, 51, 0.88),
+            linear-gradient(#faff10, #fff219),
+            linear-gradient(#fffe04 20%, #fdff01 80%);
+    -fx-border-color: rgb(255, 174, 5);
+    -fx-border-radius: 15;
+    -fx-border-width: 2;
+    -fx-padding: 0;
+    -fx-background-insets: 0 0 -1 0,0,1;
+    -fx-background-radius: 15;
+    -fx-text-fill: #000000;
+    -fx-font-size: 14px;
+    -fx-font-style: normal;
+    -fx-animated: false;
+}
+.buttonConstOperation{
+    -fx-background-color:
+            rgba(255, 254, 127, 0.88),
+            linear-gradient(#fbff83, #fff75e),
+            linear-gradient(#fbee79 20%, #fbf55f 80%);
+    -fx-border-color: rgb(255, 197, 67);
+    -fx-border-radius: 15;
+    -fx-border-width: 2;
+    -fx-background-insets: 0 0 -1 0,0,1;
+    -fx-background-radius: 15;
+    -fx-padding: 0;
+    -fx-text-fill: #000000;
+    -fx-font-size: 11px;
+    -fx-font-style: normal;
+    -fx-animated: true;
+}
+
+.buttonConstOperation:hover{
+    -fx-background-color:
+            rgba(255, 253, 51, 0.88),
+            linear-gradient(#faff10, #fff219),
+            linear-gradient(#fffe04 20%, #fdff01 80%);
+    -fx-border-color: rgb(255, 174, 5);
+    -fx-border-radius: 15;
+    -fx-border-width: 2;
+    -fx-padding: -1;
+    -fx-background-insets: 0 0 -1 0,0,1;
+    -fx-background-radius: 15;
+    -fx-text-fill: #000000;
+    -fx-font-size: 12px;
+    -fx-font-style: normal;
+    -fx-animated: false;
+}

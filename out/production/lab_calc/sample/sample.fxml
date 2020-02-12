@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="center" hgap="10" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="330.0" prefWidth="230.0" stylesheets="@style.css" vgap="10" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <columnConstraints>
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+    </rowConstraints>
+    <children>
+        <AnchorPane prefHeight="500.0" prefWidth="250.0">
+            <children>
+
+                <TextArea fx:id="result" layoutX="25" layoutY="30" prefHeight="56.0" prefWidth="200.0" />
+                <Label fx:id="helper" layoutX="50" layoutY="8" text="Choose first statement">
+                    <font>
+                        <Font name="Times New Roman" size="15.0" />
+                    </font>
+                </Label>
+                <Button fx:id="nullf" layoutX="20" layoutY="100" mnemonicParsing="false" onAction="#nullfClick" prefHeight="45" prefWidth="45" styleClass="btn1" text="null" />
+                <Button fx:id="truef" layoutX="75" layoutY="100" mnemonicParsing="false" onAction="#truefClick" prefHeight="45" prefWidth="45" styleClass="btn1" text="true" />
+                <Button fx:id="falsef" layoutX="130" layoutY="100" mnemonicParsing="false" onAction="#falsefClick" prefHeight="45" prefWidth="45" styleClass="btn1" text="false" />
+                <Button fx:id="first" layoutX="185" layoutY="100" mnemonicParsing="false" onAction="#firstClick" prefHeight="45" prefWidth="45" styleClass="btn1" text="v" />
+                <Button fx:id="second" layoutX="20" layoutY="165" mnemonicParsing="false" onAction="#secondClick" prefHeight="45" prefWidth="45" styleClass="btn1" text="^" />
+                <Button fx:id="third" layoutX="75" layoutY="165" mnemonicParsing="false" onAction="#thirdClick" prefHeight="45" prefWidth="45" styleClass="btn1" text="←" />
+                <Button fx:id="fourth" layoutX="130" layoutY="165" mnemonicParsing="false" onAction="#fourthClick" prefHeight="45" prefWidth="45" styleClass="btn1" text="→" />
+                <Button fx:id="fifth" layoutX="185" layoutY="165" mnemonicParsing="false" onAction="#fifthClick" prefHeight="45" prefWidth="45" styleClass="btn1" text="↓" />
+                <Button fx:id="sixth" layoutX="20" layoutY="230" mnemonicParsing="false" onAction="#sixthClick" prefHeight="45" prefWidth="45" styleClass="btn1" text="|" />
+                <Button fx:id="seventh" layoutX="75" layoutY="230" mnemonicParsing="false" onAction="#seventhClick" prefHeight="45" prefWidth="45" styleClass="btn1" text="!←" />
+                <Button fx:id="eighth" layoutX="130" layoutY="230" mnemonicParsing="false" onAction="#eighthClick" prefHeight="45" prefWidth="45" styleClass="btn1" text="!→" />
+                <Button fx:id="ninth" layoutX="185" layoutY="230" mnemonicParsing="false" onAction="#ninthClick" prefHeight="45" prefWidth="45" styleClass="btn1" text="c0" />
+                <Button fx:id="tenth" layoutX="20" layoutY="295" mnemonicParsing="false" onAction="#tenthClick" prefHeight="45" prefWidth="45" styleClass="btn1" text="c1" />
+                <Button fx:id="eleventh" layoutX="75" layoutY="295" mnemonicParsing="false" onAction="#eleventhClick" prefHeight="45" prefWidth="45" styleClass="btn1" text="⊕" />
+                <Button fx:id="restart" layoutX="130" layoutY="295" mnemonicParsing="false" onAction="#restartClick" prefHeight="45" prefWidth="45" styleClass="btn2" text="C" />
+                <Button fx:id="equal" layoutX="185" layoutY="295" mnemonicParsing="false" onAction="#OnClick" prefHeight="45" prefWidth="45" styleClass="btn1" text="=" />
+                <Button fx:id="eqviv" mnemonicParsing="false" prefHeight="45" prefWidth="45" styleClass="btn1" text="~"  layoutX="20" layoutY="360" onAction="#twelfthclick" />
+                <Button fx:id="not1" mnemonicParsing="false" text="not1"   prefHeight="45" prefWidth="45" styleClass="btn1"  layoutY="360" layoutX="75" onAction="#thirteenthclick" />
+                <Button fx:id="not2" mnemonicParsing="false" text="not2"   prefHeight="45" prefWidth="45" styleClass="btn1"  layoutY="360" layoutX="130" onAction="#fourteenthclick" />
+                <Button fx:id="yes1" mnemonicParsing="false" text="yes1"   prefHeight="45" prefWidth="45" styleClass="btn1"  layoutY="360" layoutX="185" onAction="#fifteenthclick" />
+                <Button fx:id="yes2" mnemonicParsing="false" text="yes2"   prefHeight="45" prefWidth="45" styleClass="btn1"  layoutY="425" layoutX="75" onAction="#sixteenthclick" />
+            </children></AnchorPane>
+    </children>
+</GridPane>

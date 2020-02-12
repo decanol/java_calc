@@ -1,0 +1,80 @@
+.root{
+   -fx-background-color:
+            rgb(202, 143, 200)
+            linear-gradient(#F0F8FF, #000000),
+            linear-gradient(#F0F8FF   20%, #000000 80%);
+}
+→
+.btn1 {
+    -fx-background-color:
+            rgb(202, 143, 200)
+            linear-gradient(#CA8FC8, #CA8FC8),
+            linear-gradient(#FEAA01  30%, #FEFE01 70%);
+    -fx-border-color: rgb(202, 143, 200);
+    -fx-border-radius: 15;
+    -fx-border-width: 2;
+    -fx-background-radius: 300;
+    -fx-text-fill: #D02121;
+    -fx-padding: -1;
+    -fx-font-size: 20px;
+    -fx-font-style: normal;
+}
+
+.btn1:hover{
+    -fx-background-color:
+                rgb(202, 143, 200)
+                linear-gradient(#000000, #000000),
+                linear-gradient(#000000 20%, #000000 80%);
+    -fx-border-color: rgb(166, 3, 0);
+    -fx-border-radius: 15;
+    -fx-border-width: 2;
+    -fx-padding: 0;
+    -fx-background-insets: 0 0 -1 0,0,1;
+    -fx-background-radius: 15;
+    -fx-text-fill: #5bff6c;
+    -fx-font-size: 24px;
+    -fx-font-style: normal;
+}
+
+.btn2{
+    -fx-background-color:
+                rgb(202, 143, 200)
+                linear-gradient(#000000, #000000),
+                linear-gradient(#000000  40%, #000000 60%);
+    -fx-border-color: rgb(166, 3, 0);
+    -fx-border-radius: 15;
+    -fx-border-width: 2;
+    -fx-padding: 0;
+    -fx-background-insets: 0 0 -1 0,0,1;
+    -fx-background-radius: 15;
+    -fx-text-fill: #FFFF00;
+    -fx-font-size: 24px;
+    -fx-font-style: normal;
+}
+
+.lbl{
+-fx-font: 15px "Times New Roman";
+-fx-text-fill: black;
+}
+
+/*.btn1{
+    -fx-background-color:
+            rgba(255, 175, 45, 0.88),
+            linear-gradient(#ff4428, #ff856c),
+            linear-gradient(#ff3016 20%, #fb6515 80%);
+    -fx-border-color: rgb(243, 136, 22);
+    -fx-border-radius: 15;
+    -fx-border-width: 2;
+    -fx-background-insets: 0 0 -1 0,0,1;
+    -fx-background-radius: 15;
+    -fx-text-fill: #f7fdff;
+    -fx-padding: -1;
+    -fx-font-size: 15px;
+    -fx-font-style: normal;
+    -fx-animated: true;
+}
+
+.lbl{
+-fx-font: 15px "Times New Roman";
+-fx-text-fill:rgb(1,1,1)
+}
